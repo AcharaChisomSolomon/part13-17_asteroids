@@ -83,7 +83,7 @@ class RockManager:
         self.fill_rocks()
 
     def fill_rocks(self):
-        for i in range(20):
+        for i in range(30):
             self.rocks.append(Rock(self.screen_prop))
 
     def check_if_over(self):
